@@ -1,0 +1,32 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    /* background-color: tomato; */
+}
+
+cite{
+    position: fixed;
+    top: 100px;
+    left: -70px;
+    transform: rotate(-90deg);
+}
+
+.instructions{
+    position: fixed;
+    top: 10px;
+    left: 50px;
+}
+
+.flexCentered{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
